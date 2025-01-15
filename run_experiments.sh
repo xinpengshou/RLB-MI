@@ -11,3 +11,12 @@ python main.py -model_name VGG16 -max_episodes 40000 -max_step 1 -alpha 0 -n_cla
 
 # Face.evoLVe
 # python main.py -model_name Face.evoLVe -max_episodes 40000 -max_step 1 -alpha 0 -n_classes 1000 -z_dim 100 -n_target 1000
+
+# PPO VGG16
+python run_ppo_attack.py -model_name VGG16 -max_episodes 40000 -max_step 1 -alpha 0 -n_classes 1000 -z_dim 100 -n_target 1000
+
+# PPO ResNet-152
+# python run_ppo_attack.py -model_name ResNet-152 -max_episodes 40000 -max_step 1 -alpha 0 -n_classes 1000 -z_dim 100 -n_target 1000
+
+# PPO Face.evoLVe
+# python run_ppo_attack.py -model_name Face.evoLVe -max_episodes 40000 -max_step 1 -alpha 0 -n_classes 1000 -z_dim 100 -n_target 1000
